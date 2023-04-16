@@ -1,0 +1,4 @@
+use ('sensores')
+
+db.SensoresMovimento.deleteMany({})
+db.SensoresTemperatura.deleteMany({})
