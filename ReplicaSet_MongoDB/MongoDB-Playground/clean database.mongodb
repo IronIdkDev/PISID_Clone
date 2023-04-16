@@ -1,3 +1,5 @@
+// Description: Cleans the database and its collections
+
 use ('sensores')
 
 db.SensoresMovimento.deleteMany({})

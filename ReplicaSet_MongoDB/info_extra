@@ -1,6 +1,0 @@
-rs.initiate()
-
-rs.add("localhost:25015")
-rs.add("localhost:23015")
-
-rs.status() // check status
