@@ -3,7 +3,15 @@ package CloudTo_MQTT;
 import org.eclipse.paho.client.mqttv3.*;
 
 public class writeToMQTT {
-    private static final MqttClient mqttclient = new MqttClient("tcp://localhost:1883", MqttClient.generateClientId());
+    private static final MqttClient mqttclient;
+
+    static {
+        try {
+            mqttclient = new MqttClient("tcp://localhost:1883", MqttClient.generateClientId());
+        } catch (MqttException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     public static void publishSensor(String leituraSensor) {
         try {
