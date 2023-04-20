@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CloudTo_MQTT" target="19" />
+      <module name="CloudTo_MQTT" target="1.8" />
       <module name="myproject" target="1.5" />
     </bytecodeTargetLevel>
   </component>

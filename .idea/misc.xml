@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/CloudTo_ReplicaSet/pom.xml" />
         <option value="$PROJECT_DIR$/CloudTo_MQTT/pom.xml" />
         <option value="$PROJECT_DIR$/CloudTo_MQTT/CloudTo_MQTT/pom.xml" />
+        <option value="$PROJECT_DIR$/src/pom.xml" />
       </list>
     </option>
   </component>
