@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Sensores_Java_Mqtt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.eclipse.paho.client.mqttv3-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mongo-java-driver-3.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jackson-mapper-asl-1.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CloudtoMongo.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bson-3.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
